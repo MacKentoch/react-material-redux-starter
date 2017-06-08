@@ -1,0 +1,39 @@
+@import "./_vars";
+@import "./_mixins";
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ body {
+   font-family: 'robotoregular', sans-serif;
+   margin: 0;
+   padding: 0
+ }
+
+.containersCustom {
+  padding-left: $CONTAINER_CUSTOM_PADDING_LEFT;
+  padding-right: $CONTAINER_CUSTOM_PADDING_RIGHT;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.views-with-top-navbar {
+  padding: {
+    top: 25px;
+  }
+}
+
+.view-enter {
+  @include fade-in(0s, 0.7s, ease-in);
+   z-index: 9999;
+ }
