@@ -2,9 +2,7 @@
 
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/MacKentoch/react-material-redux-starter)
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/Mp96tCWH2KdajZuBzqB6jwj8/MacKentoch/react-material-redux-starter'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/Mp96tCWH2KdajZuBzqB6jwj8/MacKentoch/react-material-redux-starter.svg' />
-</a>
+
 
 > A simple `ReactJS` starter that uses `Material UI` `redux` `react-router v4` and `webpack 2`.
 
